@@ -32,11 +32,7 @@ jobs:
           porter_version: v0.38.1
       - name: Pull in porter mixins
         run: |
-#          porter mixins install databricks --url https://github.com/squillace/porter-databricks/releases/download/ --version v0.1.0
-#          porter mixins install jq --url https://github.com/squillace/porter-jq/releases/download --version v0.1.0
-          porter mixins install pac --url https://github.com/squillace/porter-pac/releases/download --version v0.1.0
-#          porter mixins install ansible --url https://github.com/squillace/porter-ansible/releases/download --version v0.1.0
-#          porter mixins install pbicli --url https://github.com/squillace/porter-pbicli/releases/download --version v0.1.0
+          porter mixins install pac --url https://github.com/squillace/porter-pac/releases/download --version v0.1.1
       - name: Login to GitHub Packages OCI Registry
         uses: docker/login-action@v1
         with:
