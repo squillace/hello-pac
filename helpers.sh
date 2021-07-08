@@ -2,7 +2,7 @@
 set -euo pipefail
 
 install() {
-  tools/pac help
+
 }
 
 upgrade() {
