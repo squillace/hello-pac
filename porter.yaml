@@ -4,7 +4,7 @@
 # Uncomment out the sections below to take full advantage of what Porter can do!
 
 name: powerplatform-cli-hello
-version: 0.1.7
+version: 0.1.8
 description: "This CNAB bundle uses the https://github.com/squillace/porter-pac mixin to create an admin profile and create an environment in PowerApps."
 # TODO: update the registry to your own, e.g. myregistry
 registry: ghcr.io/squillace
@@ -38,6 +38,17 @@ install:
         name: "{{bundle.parameters.powerapp_env_name}}"
         domain: "{{bundle.parameters.powerapp_env_name}}"
         type: Sandbox # default for now
+      outputs:
+        - name: env_id_string
+          regex: "(([0-9A-Fa-f]{8}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{12})+)"
+  - exec:
+      command: output.sh
+      description: "Cleansing the output to reuse the env id on upgrade and uninstallation..."
+      arguments:
+        - "{{bundle.outputs.env_id_string}}"
+      outputs:
+        - name: env_id
+          regex: "(.*)"
 
 
 upgrade:
@@ -97,5 +108,16 @@ parameters:
   - name: pac-env-id-to-delete
     description: "the environment id to delete the environment on uninstall...."
     type: string
-    default: "foo"
+    applyTo:
+      - upgrade
+      - uninstall
+    source:
+      output: env_id
+
+outputs:
+  - name: env_id
+    type: string
+    applyTo:
+      - install
+      - upgrade
 
