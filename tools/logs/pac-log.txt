@@ -18,3 +18,480 @@
 2021-06-28 22:17:22.4897|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
 2021-06-28 22:17:22.4897|INFO|bolt.cli.CommandProcessor|Success: True
 2021-06-28 22:17:22.4897|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 12
+2021-07-08 18:21:00.1657|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 18:21:00.1843|INFO|bolt.cli.CommandProcessor|Verbs: [""]
+2021-07-08 18:21:00.2021|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 18:21:00.2021|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-08 18:21:00.2021|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 11
+2021-07-08 18:21:06.7478|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 18:21:06.7651|INFO|bolt.cli.CommandProcessor|Verbs: ["admin"]
+2021-07-08 18:21:06.7846|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 18:21:06.7846|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 18:21:06.7846|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 13
+2021-07-08 18:21:15.4882|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 18:21:15.5037|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","create"]
+2021-07-08 18:21:15.5305|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 18:21:15.5305|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 18:21:15.5305|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 20
+2021-07-08 18:23:15.8458|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 18:23:15.8612|INFO|bolt.cli.CommandProcessor|Verbs: [""]
+2021-07-08 18:23:15.8768|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 18:23:15.8768|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-08 18:23:15.8768|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 9
+2021-07-08 18:34:30.9455|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 18:34:30.9608|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","create"]
+2021-07-08 18:34:31.0029|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 18:34:31.0029|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 18:34:31.0029|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 37
+2021-07-08 18:39:29.6425|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 18:39:29.6585|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","create"]
+2021-07-08 18:39:29.6769|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Authority for https://service.powerapps.com/ is https://login.microsoftonline.com/9b55aa47-4a00-4f20-85b6-7c0b2d2ba340
+2021-07-08 18:39:29.6769|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:39:30.1616|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Successfully acquired a token
+2021-07-08 18:39:30.1616|INFO|bolt.module.auth.profiles.AuthProfilesManager|Add(): Adding profile of Kind ADMIN
+2021-07-08 18:39:30.1616|INFO|bolt.module.auth.profiles.AuthProfilesManager|ReadSettings(): No settings file found, creating a default one
+2021-07-08 18:39:30.1616|INFO|bolt.module.auth.profiles.AuthProfilesManager|SetCurrent(): Setting profile of Kind ADMIN
+2021-07-08 18:39:30.2094|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 18:39:30.2094|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-08 18:39:30.2094|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 544
+2021-07-08 18:40:35.4147|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 18:40:35.4304|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","create"]
+2021-07-08 18:40:35.4585|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 18:40:35.4585|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 18:40:35.4585|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 22
+2021-07-08 18:44:09.8173|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 18:44:09.8341|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","create"]
+2021-07-08 18:44:09.8616|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 18:44:09.8616|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 18:44:09.8616|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 21
+2021-07-08 18:45:55.8899|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 18:45:55.9065|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","create"]
+2021-07-08 18:45:55.9460|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-08 18:45:55.9516|INFO|bolt.module.admin.client.actions.CreateEnvironmentAction|Executing CreateEnvironmentAction
+2021-07-08 18:45:55.9658|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting environment currencies from : 
+2021-07-08 18:45:55.9864|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:45:56.0658|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:45:56.1058|INFO|bolt.module.admin.client.actions.CreateEnvironmentAction|CreateEnvironmentAction execution is complete
+2021-07-08 18:45:56.3861|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 418ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/locations/unitedstates/environmentCurrencies?api-version=2020-08-01, correlationId:179ed305-6b08-48bc-ba66-0a5495bdbcea:
+
+2021-07-08 18:45:56.4036|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting environment languages from : 
+2021-07-08 18:45:56.4036|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:45:56.4036|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:45:56.6384|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 234ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/locations/unitedstates/environmentLanguages?api-version=2020-08-01, correlationId:1485ad07-79e4-4139-90af-afd87a9c46f3:
+
+2021-07-08 18:45:56.6430|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Creating Environment : kartikIsGreat
+2021-07-08 18:45:56.6430|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:45:56.6430|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:46:04.1932|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 7549ms, POST, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/environments?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:728ad4fa-d82e-4fb2-b909-a3f1e46c6475:
+
+2021-07-08 18:46:04.1932|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:46:04.1932|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:46:04.2946|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 97ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/b2745bf8-9a12-49df-920c-c222a3cada33?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:8bf38e0b-d99b-4a87-8ba5-bc9263de813f:
+
+2021-07-08 18:46:09.2984|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:46:09.3002|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:46:09.4339|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 135ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/b2745bf8-9a12-49df-920c-c222a3cada33?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:f5eef713-5347-4093-b061-c5252846a62d:
+
+2021-07-08 18:46:14.4364|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:46:14.4364|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:46:14.5379|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 101ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/b2745bf8-9a12-49df-920c-c222a3cada33?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:bd62190a-1737-4f16-b426-b55d767d6d65:
+
+2021-07-08 18:46:19.5396|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:46:19.5411|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:46:19.6762|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 137ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/b2745bf8-9a12-49df-920c-c222a3cada33?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:d0a4146b-df66-499f-a03a-0dc798f297d9:
+
+2021-07-08 18:46:24.6774|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:46:24.6774|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:46:24.7928|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 115ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/b2745bf8-9a12-49df-920c-c222a3cada33?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:c1d64368-8c4f-4c6f-83b7-a0fbf5ae2636:
+
+2021-07-08 18:46:29.7954|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:46:29.7954|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:46:29.9494|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 154ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/b2745bf8-9a12-49df-920c-c222a3cada33?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:88e6ccfe-8055-4f17-b950-a51a3a78e103:
+
+2021-07-08 18:46:34.9480|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting Environment with Id : df0b1178-ccca-4d4b-8f49-0c922e95640c
+2021-07-08 18:46:34.9480|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 18:46:34.9480|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 18:46:35.4634|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 514ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c?api-version=2020-08-01, correlationId:7824f32b-b6ef-4467-b657-7252678d3a18:
+
+2021-07-08 18:46:35.4771|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 18:46:35.4771|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-08 18:46:35.4771|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 563
+2021-07-08 19:04:44.5975|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:04:44.6132|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","delete"]
+2021-07-08 19:04:44.6416|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:04:44.6416|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 19:04:44.6416|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 22
+2021-07-08 19:05:14.6396|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:05:14.6549|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","delete"]
+2021-07-08 19:05:14.6640|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-08 19:05:14.6930|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-08 19:05:14.6930|INFO|bolt.module.admin.client.actions.DeleteEnvironmentAction|Executing DeleteEnvironmentAction
+2021-07-08 19:05:14.7304|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:14.8004|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:14.8298|INFO|bolt.module.admin.client.actions.DeleteEnvironmentAction|DeleteEnvironmentAction execution is complete
+2021-07-08 19:05:15.6384|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 926ms, POST, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/validateDelete?api-version=2020-08-01, correlationId:63a5d056-63e4-46ae-993f-3ddf713f6b41:
+
+2021-07-08 19:05:15.6474|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Deleting Environment : df0b1178-ccca-4d4b-8f49-0c922e95640c
+2021-07-08 19:05:15.6474|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:15.6474|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:17.0551|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 1407ms, DELETE, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c?api-version=2020-08-01, correlationId:eb66c666-24a5-43ab-b9e2-c6d07ad16bc5:
+
+2021-07-08 19:05:17.0601|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:17.0601|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:17.1535|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 93ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:5b3aab65-97c3-45ab-a478-178395a7fc6e:
+
+2021-07-08 19:05:22.1580|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:22.1580|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:22.2572|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 99ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:54f7123d-b534-4fda-9272-05e2308b2c23:
+
+2021-07-08 19:05:27.2595|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:27.2595|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:27.4384|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 179ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:978f1720-63e3-4b3d-b2b0-dc1591acde20:
+
+2021-07-08 19:05:32.4501|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:32.4501|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:32.5583|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 108ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:93b636dd-3db8-472d-8fde-e90ba6747994:
+
+2021-07-08 19:05:37.5599|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:37.5599|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:37.7926|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 232ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:604e3520-fa3b-4305-85e9-3fe9b29b2da0:
+
+2021-07-08 19:05:42.7947|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:42.7947|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:42.9308|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 136ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:b0610df6-082e-4b7e-a743-5056c1ab52ea:
+
+2021-07-08 19:05:47.9371|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:47.9371|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:48.0570|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 120ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:639b2a13-23da-4036-b4df-51b0f653dd5b:
+
+2021-07-08 19:05:53.0582|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:53.0582|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:53.1649|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 106ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:bff34ec0-e130-43bb-80b5-f06c383480e4:
+
+2021-07-08 19:05:58.1682|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:05:58.1682|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:05:58.5102|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 342ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:16d56c77-ad8b-4859-a72a-662c26614151:
+
+2021-07-08 19:06:03.5112|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:06:03.5112|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:06:03.6074|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 96ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:17cc2b2c-e976-4d62-b1a8-c6dd5d83487d:
+
+2021-07-08 19:06:08.6085|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:06:08.6085|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:06:08.7569|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 148ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:5726b5a5-4bdc-43b8-b72e-91684218212d:
+
+2021-07-08 19:06:13.7591|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:06:13.7591|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:06:13.8664|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 107ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:ccfa87e7-d239-4f42-ab09-049973f23ab2:
+
+2021-07-08 19:06:18.8680|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 19:06:18.8680|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 19:06:19.0601|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 192ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/df0b1178-ccca-4d4b-8f49-0c922e95640c/operations/2abb8817-9aef-4ac9-9a34-ce3bb76cc2f2?api-version=2020-08-01, correlationId:41b3e48c-9a51-4aea-9a99-f477b578fb07:
+
+2021-07-08 19:06:24.0950|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:06:24.0950|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-08 19:06:24.0950|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 414
+2021-07-08 19:08:15.6573|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:08:15.6725|INFO|bolt.cli.CommandProcessor|Verbs: [""]
+2021-07-08 19:08:15.6879|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:08:15.6879|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-08 19:08:15.6879|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 10
+2021-07-08 19:08:25.0541|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:08:25.0712|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 19:08:25.0712|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 0
+2021-07-08 19:08:31.4527|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:08:31.4692|INFO|bolt.cli.CommandProcessor|Verbs: ["help"]
+2021-07-08 19:08:31.4848|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:08:31.4848|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-08 19:08:31.4848|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 9
+2021-07-08 19:08:53.5001|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:08:53.5174|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","delete"]
+2021-07-08 19:08:53.5448|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:08:53.5448|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 19:08:53.5448|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 21
+2021-07-08 19:09:04.4081|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:09:04.4247|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","delete"]
+2021-07-08 19:09:04.4533|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:09:04.4533|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 19:09:04.4533|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 21
+2021-07-08 19:09:57.0027|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:09:57.0221|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","create"]
+2021-07-08 19:09:57.0521|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:09:57.0521|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 19:09:57.0521|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 24
+2021-07-08 19:30:14.3458|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:30:14.3611|INFO|bolt.cli.CommandProcessor|Verbs: ["auth"]
+2021-07-08 19:30:14.3805|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:30:14.3805|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 19:30:14.3805|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 13
+2021-07-08 19:30:36.7140|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:30:36.7291|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","delete"]
+2021-07-08 19:30:36.7656|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:30:36.7656|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 19:30:36.7656|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 31
+2021-07-08 19:43:57.6218|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 19:43:57.6391|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","name"]
+2021-07-08 19:43:57.6678|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 19:43:57.6678|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 19:43:57.6678|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 22
+2021-07-08 20:10:23.0622|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:10:23.0781|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","list"]
+2021-07-08 20:10:23.0872|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-08 20:10:23.1485|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 20:10:23.1485|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 20:10:23.1485|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 65
+2021-07-08 20:11:08.2773|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:11:08.2923|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","list"]
+2021-07-08 20:11:08.3009|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-08 20:11:08.3602|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 20:11:08.3602|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 20:11:08.3602|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 63
+2021-07-08 20:11:17.1807|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:11:17.1960|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","list"]
+2021-07-08 20:11:17.2047|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-08 20:11:17.2643|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 20:11:17.2643|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 20:11:17.2643|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 63
+2021-07-08 20:20:27.2547|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:20:27.2701|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","list"]
+2021-07-08 20:20:27.2701|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-08 20:20:27.3373|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 20:20:27.3373|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 20:20:27.3373|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 62
+2021-07-08 20:21:57.2848|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:21:57.3004|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","list"]
+2021-07-08 20:21:57.3004|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-08 20:21:57.3723|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 20:21:57.3723|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 20:21:57.3723|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 66
+2021-07-08 20:22:07.4370|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:22:07.4536|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","delete"]
+2021-07-08 20:22:07.4805|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 20:22:07.4805|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 20:22:07.4805|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 21
+2021-07-08 20:26:08.7976|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:26:08.8147|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","create"]
+2021-07-08 20:26:08.8322|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Authority for https://service.powerapps.com/ is https://login.microsoftonline.com/9b55aa47-4a00-4f20-85b6-7c0b2d2ba340
+2021-07-08 20:26:08.8322|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:26:09.3896|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Successfully acquired a token
+2021-07-08 20:26:09.3962|INFO|bolt.module.auth.profiles.AuthProfilesManager|Add(): Adding profile of Kind ADMIN
+2021-07-08 20:26:09.4241|INFO|bolt.module.auth.profiles.AuthProfilesManager|SetCurrent(): Setting profile of Kind ADMIN
+2021-07-08 20:26:09.4499|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 20:26:09.4501|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-08 20:26:09.4501|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 629
+2021-07-08 20:26:46.2455|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:26:46.2617|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","list"]
+2021-07-08 20:26:46.2712|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-08 20:26:46.3015|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-08 20:26:46.3015|INFO|bolt.module.admin.client.actions.ListEnvironmentAction|Executing ListEnvironmentAction
+2021-07-08 20:26:46.3153|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Listing Environment...
+2021-07-08 20:26:46.3350|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:26:46.3984|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:26:46.4269|INFO|bolt.module.admin.client.actions.ListEnvironmentAction|ListEnvironmentAction execution is complete
+2021-07-08 20:26:46.6824|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 365ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2020-08-01, correlationId:835dd42f-ac4f-4a68-9d2f-459ab4bf8ada:
+
+2021-07-08 20:26:46.6954|INFO|bolt.module.admin.AdminModule|Execute is complete.
+2021-07-08 20:26:46.7018|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 20:26:46.7018|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-08 20:26:46.7018|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 434
+2021-07-08 20:27:30.6801|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:27:30.6952|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","delete"]
+2021-07-08 20:27:30.7043|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-08 20:27:30.7327|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-08 20:27:30.7327|INFO|bolt.module.admin.client.actions.DeleteEnvironmentAction|Executing DeleteEnvironmentAction
+2021-07-08 20:27:30.7426|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Listing Environment...
+2021-07-08 20:27:30.7616|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:27:30.8265|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:27:30.8554|INFO|bolt.module.admin.client.actions.DeleteEnvironmentAction|DeleteEnvironmentAction execution is complete
+2021-07-08 20:27:31.0955|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 351ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2020-08-01, correlationId:8bcaccd6-5c42-4752-b6a3-61a180f2714f:
+
+2021-07-08 20:27:34.1028|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Listing Environment...
+2021-07-08 20:27:34.1028|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:27:34.1028|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:27:34.2496|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 146ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2020-08-01, correlationId:c368aef8-eadd-4572-9edf-92c7a3bfbc31:
+
+2021-07-08 20:27:37.2546|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Listing Environment...
+2021-07-08 20:27:37.2546|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:27:37.2546|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:27:37.3816|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 126ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2020-08-01, correlationId:abb9828c-478c-4ff0-ae1a-ec6f9ba578f4:
+
+2021-07-08 20:27:40.3827|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Listing Environment...
+2021-07-08 20:27:40.3827|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:27:40.3827|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:27:40.5151|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 132ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2020-08-01, correlationId:93defc54-c1b7-4a21-8acd-ae90274b08a0:
+
+2021-07-08 20:27:43.5199|ERROR|bolt.module.admin.client.actions.DeleteEnvironmentAction|Caught Exception in ActionBase of: There is an error parsing the data. Property 'linkedEnvironmentMetadata' is missing.
+2021-07-08 20:27:43.5482|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-08 20:27:43.5482|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-08 20:27:43.5482|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 848
+2021-07-08 20:29:20.2104|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-08 20:29:20.2261|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","delete"]
+2021-07-08 20:29:20.2350|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-08 20:29:20.2631|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-08 20:29:20.2631|INFO|bolt.module.admin.client.actions.DeleteEnvironmentAction|Executing DeleteEnvironmentAction
+2021-07-08 20:29:20.2989|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:20.3666|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:20.3949|INFO|bolt.module.admin.client.actions.DeleteEnvironmentAction|DeleteEnvironmentAction execution is complete
+2021-07-08 20:29:21.8751|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 1594ms, POST, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/validateDelete?api-version=2020-08-01, correlationId:7bf182c2-9e66-4ee5-a308-8855f9db7664:
+
+2021-07-08 20:29:21.8840|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Deleting Environment : 71891bf7-8776-4793-a4ca-53d6bbdeba70
+2021-07-08 20:29:21.8840|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:21.8840|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:23.0729|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 1188ms, DELETE, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70?api-version=2020-08-01, correlationId:0c00c047-d077-4b45-a920-ba96e3bc867c:
+
+2021-07-08 20:29:23.0729|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:23.0729|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:23.1730|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 96ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:57e870e3-4383-403b-8a08-00ee1ace2945:
+
+2021-07-08 20:29:28.1769|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:28.1769|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:28.3003|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 123ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:2e2dd345-3fdf-4458-a239-aa1c97610639:
+
+2021-07-08 20:29:33.3026|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:33.3026|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:33.4166|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 114ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:c4375b39-45e3-4be7-b7a4-f71efcc39da5:
+
+2021-07-08 20:29:38.4194|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:38.4194|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:38.5281|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 109ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:5b3f546f-7d5e-45ae-a243-e523395dc4a6:
+
+2021-07-08 20:29:43.5290|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:43.5290|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:43.6506|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 121ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:a9542fc7-44a1-411b-8e3e-e61f5fb728b2:
+
+2021-07-08 20:29:48.6518|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:48.6518|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:48.7448|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 93ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:095d3e3d-3015-45c4-9856-36db95491079:
+
+2021-07-08 20:29:53.7497|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:53.7497|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:53.9163|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 167ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:c1cb51a8-14a1-4072-ac18-6cdebc5e1553:
+
+2021-07-08 20:29:58.9174|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:29:58.9174|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:29:59.0221|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 105ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:9b22026e-3eed-480a-993d-09e8fbdde453:
+
+2021-07-08 20:30:04.0243|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:04.0243|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:04.1816|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 157ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:6bce14b3-b919-4476-9697-a55fb4e6f4dd:
+
+2021-07-08 20:30:09.1825|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:09.1825|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:09.2848|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 102ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:7f0e03ab-0fe5-4e54-904e-4a0dc9268c72:
+
+2021-07-08 20:30:14.2861|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:14.2861|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:14.4024|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 116ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:e18e2136-e3bc-4933-930d-c2565f0d6658:
+
+2021-07-08 20:30:19.4040|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:19.4040|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:19.5109|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 107ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:22e88f1a-1cca-4b4a-a74f-e69dfc4839db:
+
+2021-07-08 20:30:24.5131|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:24.5131|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:24.6748|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 161ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:e2e4edb6-7ae3-4569-87e1-218052173fc8:
+
+2021-07-08 20:30:29.6758|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:29.6758|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:29.7765|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 100ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:da79f58e-8d36-4063-aee4-758a716b7bbc:
+
+2021-07-08 20:30:34.7799|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:34.7804|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:34.9211|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 141ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:88b90aa9-fcf8-4105-a574-8f82eee42eb0:
+
+2021-07-08 20:30:39.9229|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:39.9229|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:40.0369|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 114ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:65239ab1-3f4c-41dd-822f-a2ab36327e62:
+
+2021-07-08 20:30:45.0497|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:45.0497|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:45.1732|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 123ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:58612890-81c0-44f8-b298-b3bbde276a16:
+
+2021-07-08 20:30:50.1753|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:50.1753|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:50.2763|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 101ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:ec25033c-3b8b-42a7-b6f3-3c557ab4016e:
+
+2021-07-08 20:30:55.2778|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:30:55.2778|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:30:55.4272|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 149ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:e8a8a6fb-a7b3-4fa5-9da1-9d9c6b3223ac:
+
+2021-07-08 20:31:00.4300|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:00.4300|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:00.5289|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 99ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:696e6a84-7276-46a1-a005-15b7083a3826:
+
+2021-07-08 20:31:05.5303|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:05.5303|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:05.6497|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 119ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:63570903-0b5e-4b54-a4b9-d7f49371e3f0:
+
+2021-07-08 20:31:10.6506|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:10.6506|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:10.7441|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 93ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:77eb300e-5df2-48bb-899b-35877b1a540b:
+
+2021-07-08 20:31:15.7451|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:15.7451|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:15.8547|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 109ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:5f6f7fa6-d8b8-4566-a731-da82a996f972:
+
+2021-07-08 20:31:20.8566|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:20.8566|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:20.9484|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 91ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:cfa14a91-e193-4ee0-94c6-91a826951a7c:
+
+2021-07-08 20:31:25.9496|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:25.9496|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:26.2081|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 258ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:43468682-ef0f-4786-90bf-1efda8a8eae7:
+
+2021-07-08 20:31:31.2087|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:31.2087|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:31.3092|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 100ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:06d765af-7bdf-473c-b231-ce0ac4dae238:
+
+2021-07-08 20:31:36.3103|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:36.3103|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:36.4531|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 143ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:a2930f66-0e08-41c8-96ac-4948f9b2bac2:
+
+2021-07-08 20:31:41.4541|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:41.4541|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:41.5429|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 88ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:163b1cff-76e1-4efe-845b-cc538db69707:
+
+2021-07-08 20:31:46.5440|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:46.5440|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:46.6682|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 124ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:2ac79db6-a0ba-43ca-a3b7-1d809e36a339:
+
+2021-07-08 20:31:51.6696|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:51.6700|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:51.7615|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 91ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:d78774eb-4cb8-46e8-ad04-19cd3842ff3b:
+
+2021-07-08 20:31:56.7628|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:31:56.7628|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:31:56.8925|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 129ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:62c42ab3-68eb-43c6-8920-b7e45acf9360:
+
+2021-07-08 20:32:01.8937|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:32:01.8937|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:32:01.9873|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 93ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:6c503ed9-1df4-48cd-a270-6cce183567be:
+
+2021-07-08 20:32:06.9886|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:32:06.9886|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:32:07.1177|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 129ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:c688bca5-b2d2-4e81-821c-67eb7d25dc95:
+
+2021-07-08 20:32:12.1110|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:32:12.1110|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:32:12.2149|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 103ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:e5128962-8d15-4d4c-afcd-ce951cca9448:
+
+2021-07-08 20:32:17.2156|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:32:17.2156|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:32:17.3239|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 108ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:9d9f9bf2-8478-4b58-892d-8c82ce1a61ef:
+
+2021-07-08 20:32:22.3262|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:32:22.3262|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:32:22.4582|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 132ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:50194a7a-611f-401b-a423-82ef59010224:
+
+2021-07-08 20:32:27.4604|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:32:27.4604|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:32:27.5824|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 122ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:95da6f20-7789-41d9-9e14-666809187908:
+
+2021-07-08 20:32:32.5832|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:32:32.5832|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:32:32.7050|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 121ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:fe928655-dd56-4f77-95d3-bd13883c197a:
+
+2021-07-08 20:32:37.7057|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-08 20:32:37.7057|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-08 20:32:37.8080|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 102ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/71891bf7-8776-4793-a4ca-53d6bbdeba70/operations/21675b16-0d19-4f25-9296-2562560f6feb?api-version=2020-08-01, correlationId:bf3ed717-a80a-44da-b257-e340e64d943f:
+

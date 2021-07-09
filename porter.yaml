@@ -4,7 +4,7 @@
 # Uncomment out the sections below to take full advantage of what Porter can do!
 
 name: powerplatform-cli-hello
-version: 0.1.4
+version: 0.1.5
 description: "This CNAB bundle uses the https://github.com/squillace/porter-pac mixin to create an admin profile and create an environment in PowerApps."
 # TODO: update the registry to your own, e.g. myregistry
 registry: ghcr.io/squillace
@@ -21,7 +21,24 @@ install:
   - pac:
       description: "invoke pac"
       arguments:
-        - help
+        - auth
+        - create 
+      flags:
+        name: hello-powerapps 
+        kind: Admin 
+        applicationId: "{{bundle.credentials.POWER_CLIENT_ID}}"
+        clientSecret: "{{bundle.credentials.POWER_CLIENT_PASSWORD}}" 
+        tenant: "{{bundle.credentials.POWER_TENANT_ID}}"
+  - pac:
+      description: "Creating a new environment for the application...."
+      arguments:
+        - admin
+        - create
+      flags:
+        name: "{{bundle.parameters.powerapp_env_name}}"
+        domain: "{{bundle.parameters.powerapp_env_name}}"
+        type: Sandbox # default for now
+
 
 upgrade:
   - exec:
@@ -31,24 +48,55 @@ upgrade:
         - upgrade
 
 uninstall:
-  - exec:
-      description: "Uninstall Hello World"
-      command: ./helpers.sh
+  - pac:
+      description: "Logging into Power Apps as admin...."
       arguments:
-        - uninstall
+        - auth
+        - create 
+      flags:
+        name: hello-powerapps 
+        kind: Admin 
+        applicationId: "{{bundle.credentials.POWER_CLIENT_ID}}"
+        clientSecret: "{{bundle.credentials.POWER_CLIENT_PASSWORD}}" 
+        tenant: "{{bundle.credentials.POWER_TENANT_ID}}"
+  - pac: 
+      description: "deleting the environment...."
+      arguments:
+        - admin
+        - delete
+      flags: 
+        environment-id: "{{bundle.parameters.pac-env-id-to-delete}}"
 
+        
 # Below is an example of how to define credentials
 # See https://porter.sh/author-bundles/#credentials
-#credentials:
-#  - name: kubeconfig
-#    path: /root/.kube/config
-#  - name: username
-#    env: USERNAME
+credentials:
+# Power Platform Credentials
+  - name: POWER_TENANT_ID
+    description: "The Azure tenant identifier."
+    env: POWER_TENANT_ID
+  - name: POWER_CLIENT_ID
+    description: "The Azure Client identifier, also called the App ID."
+    env: POWER_CLIENT_ID
+  - name: POWER_CLIENT_PASSWORD
+    description: "The Azure client password or secret."
+    env: POWER_CLIENT_PASSWORD
 
 # Below is an example of how to define parameters
 # See https://porter.sh/author-bundles/#parameters
 parameters:
   - name: use_global_invariant
+    description: "TODO: Sets dotnet to globally invariant for temporary workaround...."
     type: string
     env: DOTNET_SYSTEM_GLOBALIZATION_INVARIANT
     default: 1
+  - name: powerapp_env_name
+    type: string
+    description: "The name of the power app environment you will create."
+    default: kartikisgreat
+  - name: pac-env-id-to-delete
+    description: "the environment id to delete the environment on uninstall...."
+    type: string
+    applyTo:
+      - "upgrade,uninstall"
+
