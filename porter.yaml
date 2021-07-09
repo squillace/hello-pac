@@ -4,7 +4,7 @@
 # Uncomment out the sections below to take full advantage of what Porter can do!
 
 name: powerplatform-cli-hello
-version: 0.1.5
+version: 0.1.6
 description: "This CNAB bundle uses the https://github.com/squillace/porter-pac mixin to create an admin profile and create an environment in PowerApps."
 # TODO: update the registry to your own, e.g. myregistry
 registry: ghcr.io/squillace
