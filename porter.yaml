@@ -4,7 +4,7 @@
 # Uncomment out the sections below to take full advantage of what Porter can do!
 
 name: powerplatform-cli-hello
-version: 0.1.8
+version: 0.1.9
 description: "This CNAB bundle uses the https://github.com/squillace/porter-pac mixin to create an admin profile and create an environment in PowerApps."
 # TODO: update the registry to your own, e.g. myregistry
 registry: ghcr.io/squillace
@@ -19,12 +19,12 @@ mixins:
 
 install:
   - pac:
-      description: "invoke pac"
+      description: "Attaching to the tenant...."
       arguments:
         - auth
         - create 
       flags:
-        name: hello-powerapps 
+        name: powerapp-tenant-admin 
         kind: Admin 
         applicationId: "{{bundle.credentials.POWER_CLIENT_ID}}"
         clientSecret: "{{bundle.credentials.POWER_CLIENT_PASSWORD}}" 
@@ -43,13 +43,30 @@ install:
           regex: "(([0-9A-Fa-f]{8}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{12})+)"
   - exec:
       command: output.sh
-      description: "Cleansing the output to reuse the env id on upgrade and uninstallation..."
+      description: "Capturing the environment id..."
       arguments:
         - "{{bundle.outputs.env_id_string}}"
       outputs:
         - name: env_id
           regex: "(.*)"
-
+  - pac:
+      description: "Attaching to the specific environment to import the solution...."
+      arguments:
+        - auth
+        - create 
+      flags:
+        name: powerapp-environment-ops
+        url: "https://{{bundle.parameters.powerapp_env_name}}.crm.dynamics.com"
+        applicationId: "{{bundle.credentials.POWER_CLIENT_ID}}"
+        clientSecret: "{{bundle.credentials.POWER_CLIENT_PASSWORD}}" 
+        tenant: "{{bundle.credentials.POWER_TENANT_ID}}"
+  - pac:
+      description: "Importing the application...."
+      arguments:
+        - solution
+        - import
+      flags:
+        path: "./mytestsoln.zip"
 
 upgrade:
   - exec:
@@ -98,7 +115,7 @@ credentials:
 parameters:
   - name: use_global_invariant
     description: "TODO: Sets dotnet to globally invariant for temporary workaround...."
-    type: string
+    type: integer
     env: DOTNET_SYSTEM_GLOBALIZATION_INVARIANT
     default: 1
   - name: powerapp_env_name

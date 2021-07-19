@@ -28686,3 +28686,419 @@ Timestamp: 2021-07-09 17:26:31Z
 2021-07-09 17:05:01.7397|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
 2021-07-09 17:05:01.7397|INFO|bolt.cli.CommandProcessor|Success: True
 2021-07-09 17:05:01.7397|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 514
+2021-07-15 11:28:49.8893|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 11:28:49.9108|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","create"]
+2021-07-15 11:28:49.9284|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Authority for https://service.powerapps.com/ is https://login.microsoftonline.com/9b55aa47-4a00-4f20-85b6-7c0b2d2ba340
+2021-07-15 11:28:49.9284|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Acquiring token for https://service.powerapps.com/
+2021-07-15 11:28:50.5515|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Successfully acquired a token
+2021-07-15 11:28:50.5582|INFO|bolt.module.auth.profiles.AuthProfilesManager|Add(): Adding profile of Kind ADMIN
+2021-07-15 11:28:50.5865|INFO|bolt.module.auth.profiles.AuthProfilesManager|SetCurrent(): Setting profile of Kind ADMIN
+2021-07-15 11:28:50.6123|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 11:28:50.6123|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-15 11:28:50.6123|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 695
+2021-07-15 11:29:04.6246|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 11:29:04.6398|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-15 11:29:04.6398|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 0
+2021-07-15 12:26:37.2834|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 12:26:37.2984|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","create"]
+2021-07-15 12:26:37.3161|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Authority for https://service.powerapps.com/ is https://login.microsoftonline.com/9b55aa47-4a00-4f20-85b6-7c0b2d2ba340
+2021-07-15 12:26:37.3161|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Acquiring token for https://service.powerapps.com/
+2021-07-15 12:26:37.8735|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Successfully acquired a token
+2021-07-15 12:26:37.8797|INFO|bolt.module.auth.profiles.AuthProfilesManager|Add(): Adding profile of Kind ADMIN
+2021-07-15 12:26:37.9057|INFO|bolt.module.auth.profiles.AuthProfilesManager|SetCurrent(): Setting profile of Kind ADMIN
+2021-07-15 12:26:37.9309|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 12:26:37.9309|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-15 12:26:37.9309|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 625
+2021-07-15 12:26:43.6573|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 12:26:43.6717|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","list"]
+2021-07-15 12:26:43.6810|INFO|bolt.module.admin.AdminModule|Starting Execute...
+2021-07-15 12:26:43.7086|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-15 12:26:43.7086|INFO|bolt.module.admin.client.actions.ListEnvironmentAction|Executing ListEnvironmentAction
+2021-07-15 12:26:43.7212|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Listing Environment...
+2021-07-15 12:26:43.7404|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 12:26:43.8072|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 12:26:43.8351|INFO|bolt.module.admin.client.actions.ListEnvironmentAction|ListEnvironmentAction execution is complete
+2021-07-15 12:26:44.2582|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 535ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2020-08-01, correlationId:928b06f3-f8e5-4230-934e-f587e06254f4:
+
+2021-07-15 12:26:44.2718|INFO|bolt.module.admin.AdminModule|Execute is complete.
+2021-07-15 12:26:44.2783|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 12:26:44.2783|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-15 12:26:44.2783|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 601
+2021-07-15 15:47:49.7516|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 15:47:49.7679|INFO|bolt.cli.CommandProcessor|Verbs: ["version"]
+2021-07-15 15:47:49.7850|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 15:47:49.7850|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-15 15:47:49.7850|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 11
+2021-07-15 15:47:57.7642|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 15:47:57.7806|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-15 15:47:57.7806|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 0
+2021-07-15 16:14:00.6431|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:14:00.6606|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","create"]
+2021-07-15 16:14:00.6793|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Authority for https://service.powerapps.com/ is https://login.microsoftonline.com/9b55aa47-4a00-4f20-85b6-7c0b2d2ba340
+2021-07-15 16:14:00.6793|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:01.2034|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Successfully acquired a token
+2021-07-15 16:14:01.2112|INFO|bolt.module.auth.profiles.AuthProfilesManager|Add(): Adding profile of Kind ADMIN
+2021-07-15 16:14:01.2462|INFO|bolt.module.auth.profiles.AuthProfilesManager|SetCurrent(): Setting profile of Kind ADMIN
+2021-07-15 16:14:01.2751|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:14:01.2751|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-15 16:14:01.2751|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 608
+2021-07-15 16:14:20.8494|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:14:20.8678|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","create"]
+2021-07-15 16:14:20.8975|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:14:20.8980|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-15 16:14:20.8980|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 23
+2021-07-15 16:14:25.2874|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:14:25.3044|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","create"]
+2021-07-15 16:14:25.3489|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-15 16:14:25.3489|INFO|bolt.module.admin.client.actions.CreateEnvironmentAction|Executing CreateEnvironmentAction
+2021-07-15 16:14:25.3696|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting environment currencies from : 
+2021-07-15 16:14:25.3911|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:25.4664|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:25.4971|INFO|bolt.module.admin.client.actions.CreateEnvironmentAction|CreateEnvironmentAction execution is complete
+2021-07-15 16:14:25.7697|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 398ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/locations/unitedstates/environmentCurrencies?api-version=2020-08-01, correlationId:f64094f8-ff75-4a57-a1ce-a4525720592f:
+
+2021-07-15 16:14:25.7857|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting environment languages from : 
+2021-07-15 16:14:25.7857|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:25.7857|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:26.0575|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 271ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/locations/unitedstates/environmentLanguages?api-version=2020-08-01, correlationId:8a6f34f5-1e1e-4d20-93ff-c4d9cdbb16fa:
+
+2021-07-15 16:14:26.0609|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Creating Environment : kartikIsGreat
+2021-07-15 16:14:26.0609|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:26.0609|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:31.3582|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:14:31.3772|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","create"]
+2021-07-15 16:14:31.4201|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-15 16:14:31.4201|INFO|bolt.module.admin.client.actions.CreateEnvironmentAction|Executing CreateEnvironmentAction
+2021-07-15 16:14:31.4425|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting environment currencies from : 
+2021-07-15 16:14:31.4629|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:31.5349|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:31.5655|INFO|bolt.module.admin.client.actions.CreateEnvironmentAction|CreateEnvironmentAction execution is complete
+2021-07-15 16:14:31.7506|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 306ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/locations/unitedstates/environmentCurrencies?api-version=2020-08-01, correlationId:6de0122f-df50-427b-bcf9-4258b83b0b3b:
+
+2021-07-15 16:14:31.7688|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting environment languages from : 
+2021-07-15 16:14:31.7688|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:31.7688|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:32.0783|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 309ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/locations/unitedstates/environmentLanguages?api-version=2020-08-01, correlationId:24725bde-758a-44db-bb38-c673fb18e99d:
+
+2021-07-15 16:14:32.0783|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Creating Environment : kartikIsGreat
+2021-07-15 16:14:32.0783|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:32.0783|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:32.2605|ERROR|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call failed:{"_httpStatusCode":409,"_requestMethod":{"Method":"POST"},"_requestUri":"https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/environments?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments","_responseBody":"{\"error\":{\"code\":\"TrialEnvironmentCreationNotSupportedForServicePrincipal\",\"message\":\"Trial environment creation not supported for Service Principal in tenant '9b55aa47-4a00-4f20-85b6-7c0b2d2ba340'.\"}}","_correlationId":"ce1b5be6-e53f-4c2a-b711-0ccbc1a26a7d"}
+2021-07-15 16:14:32.2605|ERROR|bolt.module.admin.client.primitives.ClientPrimitives|{"_httpStatusCode":409,"_requestMethod":{"Method":"POST"},"_requestUri":"https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/environments?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments","_responseBody":"{\"error\":{\"code\":\"TrialEnvironmentCreationNotSupportedForServicePrincipal\",\"message\":\"Trial environment creation not supported for Service Principal in tenant '9b55aa47-4a00-4f20-85b6-7c0b2d2ba340'.\"}}","_correlationId":"ce1b5be6-e53f-4c2a-b711-0ccbc1a26a7d"}
+2021-07-15 16:14:32.2605|ERROR|bolt.module.admin.client.actions.CreateEnvironmentAction|Caught Exception in ActionBase of: {"_httpStatusCode":409,"_requestMethod":{"Method":"POST"},"_requestUri":"https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/environments?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments","_responseBody":"{\"error\":{\"code\":\"TrialEnvironmentCreationNotSupportedForServicePrincipal\",\"message\":\"Trial environment creation not supported for Service Principal in tenant '9b55aa47-4a00-4f20-85b6-7c0b2d2ba340'.\"}}","_correlationId":"ce1b5be6-e53f-4c2a-b711-0ccbc1a26a7d"}
+2021-07-15 16:14:32.2891|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:14:32.2891|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-15 16:14:32.2891|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 906
+2021-07-15 16:14:47.2233|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:14:47.2410|INFO|bolt.cli.CommandProcessor|Verbs: ["admin","create"]
+2021-07-15 16:14:47.2845|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-15 16:14:47.2900|INFO|bolt.module.admin.client.actions.CreateEnvironmentAction|Executing CreateEnvironmentAction
+2021-07-15 16:14:47.3044|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting environment currencies from : 
+2021-07-15 16:14:47.3245|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:47.3994|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:47.4304|INFO|bolt.module.admin.client.actions.CreateEnvironmentAction|CreateEnvironmentAction execution is complete
+2021-07-15 16:14:47.6488|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 342ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/locations/unitedstates/environmentCurrencies?api-version=2020-08-01, correlationId:b35380bd-2f9c-423e-8708-9b95d38db8eb:
+
+2021-07-15 16:14:47.6641|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting environment languages from : 
+2021-07-15 16:14:47.6641|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:47.6641|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:48.0174|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 353ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/locations/unitedstates/environmentLanguages?api-version=2020-08-01, correlationId:486a9035-338b-4b95-bc70-3a68a3e02229:
+
+2021-07-15 16:14:48.0211|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Creating Environment : kartikIsGreat
+2021-07-15 16:14:48.0211|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:48.0211|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:51.8695|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 3848ms, POST, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/environments?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:e80c1404-cdca-42f8-9a5a-9c417a142a64:
+
+2021-07-15 16:14:51.8695|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:51.8695|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:51.9655|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 92ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/ac0248d5-f31b-4ba8-bf49-53f76f4cd0bd/operations/daeedb04-52a2-448c-b4f2-099b0d4dadb7?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:d169935e-7090-4c50-9afa-6998371cc84a:
+
+2021-07-15 16:14:56.9785|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:14:56.9785|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:14:57.0797|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 101ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/ac0248d5-f31b-4ba8-bf49-53f76f4cd0bd/operations/daeedb04-52a2-448c-b4f2-099b0d4dadb7?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:75341e79-434a-486e-8570-f058ecfeac94:
+
+2021-07-15 16:15:02.0811|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:15:02.0811|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:15:02.2259|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 144ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/ac0248d5-f31b-4ba8-bf49-53f76f4cd0bd/operations/daeedb04-52a2-448c-b4f2-099b0d4dadb7?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:fd084a87-1766-4985-b2de-d520ed286f2d:
+
+2021-07-15 16:15:07.2271|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:15:07.2271|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:15:07.3207|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 93ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/ac0248d5-f31b-4ba8-bf49-53f76f4cd0bd/operations/daeedb04-52a2-448c-b4f2-099b0d4dadb7?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:b3521bc9-ea06-4644-98e8-d72aad99b891:
+
+2021-07-15 16:15:12.3216|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:15:12.3216|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:15:12.4252|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 103ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/ac0248d5-f31b-4ba8-bf49-53f76f4cd0bd/operations/daeedb04-52a2-448c-b4f2-099b0d4dadb7?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:327d8436-6f3d-49ca-ae28-dd486a4d55b1:
+
+2021-07-15 16:15:17.4183|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:15:17.4183|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:15:17.5249|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 106ms, GET, https://api.bap.microsoft.com/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/ac0248d5-f31b-4ba8-bf49-53f76f4cd0bd/operations/daeedb04-52a2-448c-b4f2-099b0d4dadb7?api-version=2020-08-01&id=/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments, correlationId:3932aa35-7af6-45b0-af33-0e506f5ac26e:
+
+2021-07-15 16:15:22.5183|INFO|bolt.module.admin.client.primitives.ClientPrimitives|Getting Environment with Id : ac0248d5-f31b-4ba8-bf49-53f76f4cd0bd
+2021-07-15 16:15:22.5183|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://service.powerapps.com/
+2021-07-15 16:15:22.5183|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:15:22.7911|INFO|bolt.module.admin.client.primitives.ClientPrimitives|HTTP call succeeded: 272ms, GET, https://api.bap.microsoft.com//providers/Microsoft.BusinessAppPlatform/scopes/admin/environments/ac0248d5-f31b-4ba8-bf49-53f76f4cd0bd?api-version=2020-08-01, correlationId:107d708e-6f9c-4234-bc76-14d57f8024af:
+
+2021-07-15 16:15:22.8019|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:15:22.8019|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-15 16:15:22.8019|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 555
+2021-07-15 16:16:50.6054|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:16:50.6232|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","create"]
+2021-07-15 16:16:50.6414|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Authority for https://kartikisgreat.crm.dynamics.com is https://login.microsoftonline.com/9b55aa47-4a00-4f20-85b6-7c0b2d2ba340
+2021-07-15 16:16:50.6414|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Acquiring token for https://kartikisgreat.crm.dynamics.com
+2021-07-15 16:16:51.1334|INFO|bolt.module.auth.store.AuthTokenStore|CreateAuthProfile: Successfully acquired a token
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Initialize Dataverse connection Started - AuthType: ExternalTokenManagement
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Direct Login Process Started
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Attempting to Connect to Uri https://kartikisgreat.crm.dynamics.com/XRMServices/2011/Organization.svc
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Start: 256 : 
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] BuildOrgConnectUri CoreClass ()
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] DiscoveryServer indicated organization service location = https://kartikisgreat.crm.dynamics.com/XRMServices/2011/Organization.svc
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Stop: 512 : 
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] BuildOrgConnectUri CoreClass ()
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Organization Service URI is = https://kartikisgreat.crm.dynamics.com/XRMServices/2011/Organization.svc
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] ConnectAndInitService - Initializing Organization Service Object
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:51.2389|INFO|bolt.module.cds.client.CdsClient|[CSC] ConnectAndInitService - Requesting connection to Organization with Dataverse Version: No organization data available
+2021-07-15 16:16:51.2491|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://kartikisgreat.crm.dynamics.com
+2021-07-15 16:16:51.2491|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:16:51.3057|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:51.3057|INFO|bolt.module.cds.client.CdsClient|[CSC] Added WebClient Header Hooks to the Request object.
+2021-07-15 16:16:51.3756|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:51.3756|INFO|bolt.module.cds.client.CdsClient|[CSC] ConnectAndInitService - Proxy created, total elapsed time: 00:00:00.1298029
+2021-07-15 16:16:51.3780|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:51.3780|INFO|bolt.module.cds.client.CdsClient|[CSC] Querying Organization Instance Details. Request ID: 35be4cf6-8c03-4f33-903c-0ab8abbd3888
+2021-07-15 16:16:51.9064|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:51.9064|INFO|bolt.module.cds.client.CdsClient|[CSC] Completed Querying Organization Instance Details, total duration: 00:00:00.5282557
+2021-07-15 16:16:51.9085|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:51.9085|INFO|bolt.module.cds.client.CdsClient|[CSC] Completed Parsing Organization Instance Details
+2021-07-15 16:16:51.9085|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:51.9085|INFO|bolt.module.cds.client.CdsClient|[CSC] Connected to User Organization (unqb9b244923a8e43b08e2696f1a3171 version: 9.2.21061.146)
+2021-07-15 16:16:51.9085|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:51.9085|INFO|bolt.module.cds.client.CdsClient|[CSC] Direct Login Process Succeeded - duration 00:00:00.6686006
+2021-07-15 16:16:51.9085|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:51.9085|INFO|bolt.module.cds.client.CdsClient|[CSC] Beginning Validation of Dataverse Connection. RequestID: 5d5c03ae-f40b-45a3-bb16-803f1bd6cdfe
+2021-07-15 16:16:52.0127|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:52.0127|INFO|bolt.module.cds.client.CdsClient|[CSC] Executed Command - WhoAmIRequest : RequestId=5d5c03ae-f40b-45a3-bb16-803f1bd6cdfe : total duration: 00:00:00.1035042
+2021-07-15 16:16:52.0127|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:16:52.0127|INFO|bolt.module.cds.client.CdsClient|[CSC] Validation of Dataverse Connection Complete, total duration: 00:00:00.1039528
+2021-07-15 16:16:52.0195|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:52.0195|INFO|bolt.module.cds.client.CdsClient|[CSC] New Batch Manager Created, Max #of Batches:50000, Max #of RequestsPerBatch:5000
+2021-07-15 16:16:52.0195|INFO|bolt.module.cds.client.CdsClient|Connected to CDS Org
+2021-07-15 16:16:52.0195|INFO|bolt.module.cds.client.actions.WhoAmIAction|Executing WhoAmIAction
+2021-07-15 16:16:52.0195|INFO|bolt.module.cds.client.actions.WhoAmIAction|WhoAmIAction(): Execute Starting
+2021-07-15 16:16:52.0195|INFO|bolt.module.cds.client.primitives.ClientPrimitives|WhoAmI(): Starting
+2021-07-15 16:16:52.0291|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:52.0291|INFO|bolt.module.cds.client.CdsClient|[CSC] Execute Command - WhoAmI : Execute (WhoAmI) request to Dataverse from IOrganizationService : RequestID=b2fd5153-7430-4f2a-b7d0-34a59f076f1f 
+2021-07-15 16:16:52.0608|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:16:52.0608|INFO|bolt.module.cds.client.CdsClient|[CSC] Executed Command - WhoAmI : Execute (WhoAmI) request to Dataverse from IOrganizationService : RequestID=b2fd5153-7430-4f2a-b7d0-34a59f076f1f : duration=00:00:00.0313506
+2021-07-15 16:16:52.0608|INFO|bolt.module.cds.client.primitives.ClientPrimitives|WhoAmI(): Succeeded
+2021-07-15 16:16:52.0608|INFO|bolt.module.cds.client.actions.WhoAmIAction|WhoAmIAction execution is complete
+2021-07-15 16:16:52.0608|INFO|bolt.module.auth.profiles.AuthProfilesManager|Add(): Adding profile of Kind CDS
+2021-07-15 16:16:52.0939|INFO|bolt.module.auth.profiles.AuthProfilesManager|SetCurrent(): Setting profile of Kind CDS
+2021-07-15 16:16:52.1324|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:16:52.1324|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-15 16:16:52.1324|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 503
+2021-07-15 16:17:34.5697|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:17:34.5870|INFO|bolt.cli.CommandProcessor|Verbs: ["solution","import"]
+2021-07-15 16:17:34.6308|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'CDS'.
+2021-07-15 16:17:34.7212|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:34.7212|INFO|bolt.module.cds.client.CdsClient|[CSC] Initialize Dataverse connection Started - AuthType: ExternalTokenManagement
+2021-07-15 16:17:34.7212|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:34.7212|INFO|bolt.module.cds.client.CdsClient|[CSC] Direct Login Process Started
+2021-07-15 16:17:34.7212|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:34.7212|INFO|bolt.module.cds.client.CdsClient|[CSC] Attempting to Connect to Uri https://kartikisgreat.crm.dynamics.com/XRMServices/2011/Organization.svc
+2021-07-15 16:17:34.7212|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Start: 256 : 
+2021-07-15 16:17:34.7212|INFO|bolt.module.cds.client.CdsClient|[CSC] BuildOrgConnectUri CoreClass ()
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] DiscoveryServer indicated organization service location = https://kartikisgreat.crm.dynamics.com/XRMServices/2011/Organization.svc
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Stop: 512 : 
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] BuildOrgConnectUri CoreClass ()
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] Organization Service URI is = https://kartikisgreat.crm.dynamics.com/XRMServices/2011/Organization.svc
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] ConnectAndInitService - Initializing Organization Service Object
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:34.7279|INFO|bolt.module.cds.client.CdsClient|[CSC] ConnectAndInitService - Requesting connection to Organization with Dataverse Version: No organization data available
+2021-07-15 16:17:34.7422|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Acquiring token for https://kartikisgreat.crm.dynamics.com
+2021-07-15 16:17:34.8140|INFO|bolt.module.auth.store.AuthTokenStore|AcquireTokenSilentAsync: Successfully acquired a token
+2021-07-15 16:17:34.8678|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:34.8678|INFO|bolt.module.cds.client.CdsClient|[CSC] Added WebClient Header Hooks to the Request object.
+2021-07-15 16:17:34.9327|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:34.9327|INFO|bolt.module.cds.client.CdsClient|[CSC] ConnectAndInitService - Proxy created, total elapsed time: 00:00:00.2042133
+2021-07-15 16:17:34.9327|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:34.9327|INFO|bolt.module.cds.client.CdsClient|[CSC] Querying Organization Instance Details. Request ID: 374a493f-6f60-4570-a63f-cbd14802dc3a
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Completed Querying Organization Instance Details, total duration: 00:00:00.4294044
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Completed Parsing Organization Instance Details
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Connected to User Organization (unqb9b244923a8e43b08e2696f1a3171 version: 9.2.21061.146)
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Direct Login Process Succeeded - duration 00:00:00.6445379
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:35.3645|INFO|bolt.module.cds.client.CdsClient|[CSC] Beginning Validation of Dataverse Connection. RequestID: a98c02ab-9b60-4cce-a333-9c87a93e77dd
+2021-07-15 16:17:35.4028|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:35.4028|INFO|bolt.module.cds.client.CdsClient|[CSC] Executed Command - WhoAmIRequest : RequestId=a98c02ab-9b60-4cce-a333-9c87a93e77dd : total duration: 00:00:00.0350533
+2021-07-15 16:17:35.4028|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Information: 8 : 
+2021-07-15 16:17:35.4028|INFO|bolt.module.cds.client.CdsClient|[CSC] Validation of Dataverse Connection Complete, total duration: 00:00:00.0355247
+2021-07-15 16:17:35.4097|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:35.4097|INFO|bolt.module.cds.client.CdsClient|[CSC] New Batch Manager Created, Max #of Batches:50000, Max #of RequestsPerBatch:5000
+2021-07-15 16:17:35.4097|INFO|bolt.module.cds.client.CdsClient|Connected to CDS Org
+2021-07-15 16:17:35.4097|INFO|bolt.module.cds.client.actions.SolutionImportAction|Executing SolutionImportAction
+2021-07-15 16:17:35.4097|INFO|bolt.module.cds.client.actions.SolutionImportAction|SolutionImportAction: Execute Starting
+2021-07-15 16:17:35.4097|INFO|bolt.module.cds.client.primitives.ClientPrimitives|StageSolution(): Starting
+2021-07-15 16:17:35.4097|INFO|bolt.module.cds.client.primitives.ClientPrimitives|Solution size: 356901
+2021-07-15 16:17:35.4212|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:35.4212|INFO|bolt.module.cds.client.CdsClient|[CSC] Execute Command - StageSolution : Execute (StageSolution) request to Dataverse from IOrganizationService : RequestID=a0238516-6549-40a2-8e35-0b732fa31dd3 
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.CdsClient|[CSC] Executed Command - StageSolution : Execute (StageSolution) request to Dataverse from IOrganizationService : RequestID=a0238516-6549-40a2-8e35-0b732fa31dd3 : duration=00:00:00.3108199
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|stageSolutionUploadId: 00000000-0000-0000-0000-000000000000
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|ImportSolution(): Starting
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|ActivatePlugins: False
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|ImportAsHoldingSolution: False
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|IsInternalUpgrade: False
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|OverwriteUnManagedCustomizations: False
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|PublishChanges: False
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|SkipDependancyOnProductUpdateCheckOnInstall: False
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|IsAsync: False
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|MaxAsyncWaitTime: 01:00:00
+2021-07-15 16:17:35.7324|INFO|bolt.module.cds.client.primitives.ClientPrimitives|Solution size: 356901
+2021-07-15 16:17:35.7411|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:35.7411|INFO|bolt.module.cds.client.CdsClient|[CSC] Execute Command - ImportSolution : Executing ImportSolutionRequest for ImportSolution : RequestID=68b03772-cea9-48b7-9c89-7f5335d204ce 
+2021-07-15 16:17:37.1604|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Verbose: 16 : 
+2021-07-15 16:17:37.1604|INFO|bolt.module.cds.client.CdsClient|[CSC] No retry attempted for Command ImportSolution
+2021-07-15 16:17:37.1604|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Error: 2 : 
+2021-07-15 16:17:37.1604|INFO|bolt.module.cds.client.CdsClient|[CSC] ************ FaultException`1 - ImportSolution : Executing ImportSolutionRequest for ImportSolution |=> TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+Source: System.Private.ServiceModel
+Method: HandleReply
+DateUTC: 07/15/2021
+TimeUTC: 20:17:37
+Error: Message: TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+ErrorCode: -2147209463
+ActivityId: 06f6ffc4-fe20-426a-a7dd-a952d3ebc9eb
+Trace: 
+Error Details	:
+ApiExceptionSourceKey	: Plugin/Microsoft.Crm.WebServices.ImportXmlService
+ApiSourceActivityKey	: Microsoft.Crm.Extensibility.PipelineStep
+ApiExceptionOwnerKey	: COMMONDATASERVICECDS\SolutionsFramework
+ApiOriginalExceptionKey	: Microsoft.Crm.CrmSecurityException: TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege. ---> Microsoft.Crm.CrmSecurityException: TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+   at Microsoft.Crm.BusinessEntities.SecurityLibrary.ThrowUserNotAssignedRolesException(String methodName, Guid userId, Guid privilegeId, IExecutionContext context)
+   at Microsoft.Crm.BusinessEntities.SecurityLibrary.ThrowIfUserNotAssignedRolesException(String methodName, IUser user, Guid privilegeId, IExecutionContext context)
+   at Microsoft.Crm.BusinessEntities.SecurityLibrary.TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits(Guid user, Guid privilege, ExecutionContext context, PrivilegeDepth& privilegeDepth)
+   at Microsoft.Crm.BusinessEntities.SecurityLibrary.<>c__DisplayClass55_0.<GetMaxPrivilegeDepthForUserAcrossBusinessUnits>b__0()
+   at Microsoft.PowerApps.CoreFramework.ActivityLoggerExtensions.Execute[TResult](ILogger logger, EventId eventId, ActivityType activityType, Func`1 func, IEnumerable`1 additionalCustomProperties)
+   at Microsoft.Xrm.Telemetry.XrmTelemetryExtensions.Execute[TResult](ILogger logger, XrmTelemetryActivityType activityType, Func`1 func)
+   at Microsoft.Crm.BusinessEntities.SecurityLibrary.CheckPrivilegeGlobalDepth(Guid user, Guid privilege, ExecutionContext context)
+   at Microsoft.Crm.WebServices.ImportXmlService.CheckPrivileges(ExecutionContext context)
+   at Microsoft.Crm.WebServices.ImportXmlService.ImportSolutionSkipCapableInternal(Boolean overwriteUnmanagedCustomizations, Boolean publishWorkflows, Byte[] customizationFile, Guid importJobId, Boolean convertToManaged, Boolean skipProductUpdateDependencies, Boolean holdingSolution, ExecutionContext context, Boolean skipQueueRibbonJob, LayerDesiredOrder layerDesiredOrder, Boolean asyncRibbonProcessing, EntityCollection componentParameters, Boolean isTemplateMode, String templateSuffix, SolutionParameters solutionParameters)
+   at Microsoft.Crm.WebServices.ImportXmlService.ImportSolutionSkipCapable(Boolean overwriteUnmanagedCustomizations, Boolean publishWorkflows, Byte[] customizationFile, Guid importJobId, Boolean convertToManaged, Boolean skipProductUpdateDependencies, Boolean holdingSolution, ExecutionContext context, Boolean skipQueueRibbonJob, LayerDesiredOrder layerDesiredOrder, Boolean asyncRibbonProcessing, EntityCollection componentParameters, Boolean isTemplateMode, String templateSuffix, SolutionParameters solutionParameters)
+   --- End of inner exception stack trace ---
+   at Microsoft.Crm.Extensibility.VersionedPluginProxyStepBase.Execute(PipelineExecutionContext context)
+   at Microsoft.Crm.Extensibility.PipelineInstrumentationHelper.Execute(Boolean instrumentationEnabled, String stopwatchName, ExecuteWithInstrumentation action, PipelineExecutionContext context)
+   at Microsoft.Crm.Extensibility.Pipeline.<>c__DisplayClass7_0.<RunStep>b__0()
+ApiStepKey	: 1b830950-e106-4ee1-b3fd-d348cb65dc8d
+ApiDepthKey	: 1
+ApiActivityIdKey	: 06f6ffc4-fe20-426a-a7dd-a952d3ebc9eb
+ApiPluginSolutionNameKey	: System
+ApiStepSolutionNameKey	: System
+ApiExceptionCategory	: ClientError
+ApiExceptionMessageName	: UserNotAssignedRoles
+ApiExceptionHttpStatusCode	: 403
+HasRetried	: True
+RetryExecutionStatus	: Microsoft.Crm.Core.Extensions.Retry.RetryExecutionStatus
+
+HelpLink Url: Not Provided
+Stack Trace: at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(MethodCall methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(MethodInfo targetMethod, Object[] args)
+--- End of stack trace from previous location ---
+   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)
+   at generatedProxy_1.Execute(OrganizationRequest )
+   at Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient.<>c__DisplayClass40_0.<ExecuteCore>b__0()
+   at Microsoft.Xrm.Sdk.WebServiceClient.WebProxyClient`1.ExecuteAction[TResult](Func`1 action)
+   at Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient.Execute(OrganizationRequest request)
+   at Microsoft.PowerPlatform.Dataverse.Client.ServiceClient.Command_Execute(OrganizationRequest req, String errorStringCheck, Boolean bypassPluginExecution)
+======================================================================================================================
+Inner Exception Level 1	: 
+==OrganizationServiceFault Info=======================================================================================
+Error: Message: TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+ErrorCode: -2147209463
+ActivityId: 06f6ffc4-fe20-426a-a7dd-a952d3ebc9eb
+Trace: 
+Time: 07/15/2021 20:17:34
+ErrorCode: -2147209463
+DateUTC: 07/15/2021
+TimeUTC: 20:17:37
+HelpLink Url: Not Provided
+Trace: Not Provided
+======================================================================================================================
+
+2021-07-15 16:17:37.1604|INFO|bolt.module.cds.client.CdsClient|[CSC] Microsoft.PowerPlatform.Dataverse.Client.ServiceClient Error: 2 : 
+2021-07-15 16:17:37.1604|INFO|bolt.module.cds.client.CdsClient|[CSC] [TerminalFailure] Failed to Execute Command - ImportSolution : RequestID=68b03772-cea9-48b7-9c89-7f5335d204ce : Executing ImportSolutionRequest for ImportSolution duration=00:00:01.4261088 ExceptionMessage = TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+
+2021-07-15 16:17:37.1692|INFO|bolt.module.cds.client.primitives.ClientPrimitives|importId: a8fb96e6-66f9-4637-bc5b-a595a80c25fb
+2021-07-15 16:17:37.1692|ERROR|bolt.module.cds.client.primitives.ClientPrimitives|TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+2021-07-15 16:17:37.1692|ERROR|bolt.module.cds.client.primitives.ClientPrimitives|************ FaultException`1 - ImportSolution : Executing ImportSolutionRequest for ImportSolution |=> TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege. => TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.[TerminalFailure] Failed to Execute Command - ImportSolution : RequestID=68b03772-cea9-48b7-9c89-7f5335d204ce : Executing ImportSolutionRequest for ImportSolution duration=00:00:01.4261088 ExceptionMessage = TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+
+2021-07-15 16:17:37.1692|ERROR|bolt.module.cds.client.primitives.ClientPrimitives|There was an unexpected problem while performing the operation.
+TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+2021-07-15 16:17:37.1692|ERROR|bolt.module.cds.client.actions.SolutionImportAction|Caught Exception in ActionBase of: TryGetMaxPrivilegeDepthForUserAcrossBusinessUnits: The user with id ac849c52-a9e5-eb11-bacb-000d3a8efd8d has not been assigned any roles. They need a role with the prvImportCustomization privilege.
+2021-07-15 16:17:37.2112|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:17:37.2112|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-15 16:17:37.2112|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 618
+2021-07-15 16:21:05.6689|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:21:05.6886|INFO|bolt.cli.CommandProcessor|Verbs: ["auth"]
+2021-07-15 16:21:05.7072|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:21:05.7072|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-15 16:21:05.7072|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 13
+2021-07-15 16:21:12.1431|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:21:12.1607|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","delete"]
+2021-07-15 16:21:12.2032|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:21:12.2032|INFO|bolt.cli.CommandProcessor|Success: False
+2021-07-15 16:21:12.2032|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 37
+2021-07-15 16:21:26.1627|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:21:26.1788|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","list"]
+2021-07-15 16:21:26.2220|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-15 16:21:26.2220|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'CDS'.
+2021-07-15 16:21:26.2220|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetProfiles(): Found 2 profiles
+2021-07-15 16:21:26.2290|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetProfiles(): Found 2 profiles
+2021-07-15 16:21:26.2290|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetProfiles(): Found 2 profiles
+2021-07-15 16:21:26.2382|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:21:26.2382|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-15 16:21:26.2382|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 52
+2021-07-15 16:24:51.0178|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:24:51.0351|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","delete"]
+2021-07-15 16:24:51.0744|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetProfiles(): Found 2 profiles
+2021-07-15 16:24:51.0744|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetProfiles(): Found 2 profiles
+2021-07-15 16:24:51.0744|INFO|bolt.module.auth.profiles.AuthProfilesManager|Delete: Removing profile at index Kind: CDS; User: c50c38ba-45fc-429a-8c6b-69445d40b2c9; Resource: https://kartikisgreat.crm.dynamics.com; Name: hello-powerapps-ops; CloudInstance: Public
+2021-07-15 16:24:51.0744|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'CDS'.
+2021-07-15 16:24:51.0744|INFO|bolt.module.auth.profiles.AuthProfilesManager|Delete: Removed profile Kind: CDS; User: c50c38ba-45fc-429a-8c6b-69445d40b2c9; Resource: https://kartikisgreat.crm.dynamics.com; Name: hello-powerapps-ops; CloudInstance: Public
+2021-07-15 16:24:51.0744|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'CDS'.
+2021-07-15 16:24:51.0744|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-15 16:24:51.1057|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'ADMIN'.
+2021-07-15 16:24:51.1057|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetCurrent(): For Kind 'CDS'.
+2021-07-15 16:24:51.1057|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetProfiles(): Found 1 profiles
+2021-07-15 16:24:51.1057|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetProfiles(): Found 1 profiles
+2021-07-15 16:24:51.1152|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:24:51.1152|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-15 16:24:51.1152|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 72
+2021-07-15 16:24:55.7882|INFO|bolt.cli.CommandProcessor|StartExecutingVerb
+2021-07-15 16:24:55.8054|INFO|bolt.cli.CommandProcessor|Verbs: ["auth","delete"]
+2021-07-15 16:24:55.8438|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetProfiles(): Found 1 profiles
+2021-07-15 16:24:55.8438|INFO|bolt.module.auth.profiles.AuthProfilesManager|GetProfiles(): Found 1 profiles
+2021-07-15 16:24:55.8438|INFO|bolt.module.auth.profiles.AuthProfilesManager|Delete: Removing profile at index Kind: ADMIN; User: c50c38ba-45fc-429a-8c6b-69445d40b2c9; Resource: https://service.powerapps.com/; Name: hello-powerapps; CloudInstance: Public
+2021-07-15 16:24:55.8438|INFO|bolt.module.auth.profiles.AuthProfilesManager|Delete: Removed the last profile; deleting auth profiles and token cache
+2021-07-15 16:24:55.8438|INFO|bolt.module.auth.profiles.AuthProfilesManager|Clear(): Deleting /home/squillace/.local/share/Microsoft/PowerAppsCli/authprofiles.json
+2021-07-15 16:24:55.8438|INFO|bolt.module.auth.profiles.AuthProfilesManager|Clear(): Deleting token cache
+2021-07-15 16:24:55.8635|INFO|bolt.cli.CommandProcessor|EndExecutingVerb
+2021-07-15 16:24:55.8635|INFO|bolt.cli.CommandProcessor|Success: True
+2021-07-15 16:24:55.8635|INFO|bolt.cli.CommandProcessor|Execution Time(ms): 51
