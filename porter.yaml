@@ -138,3 +138,40 @@ outputs:
       - install
       - upgrade
 
+# The following values are consumed by the Azure Portal and turned into visual blades and UI elements.
+custom:
+  com.azure.creatuidef:
+    blades:
+      Credentials:
+        displayOrder: 1
+        label: Power Platform Credentials
+      Parameters:
+        displayOrder: 2
+        label: App Parameters
+    elements:
+      - name: powerapp_env_name
+        tooltip: "A name for the environment to be created."
+        displayName: "Environment name"
+        displayOrder: 1
+        uitype: Microsoft.Common.TextBox
+        bladename: Parameters
+      - name: POWER_CLIENT_ID
+        tooltip: A client id with permission to create resources in a tenant.
+        displayName: Cient ID
+        displayOrder: 1
+        uitype: Microsoft.Common.PasswordTextBox
+        bladename: Credentials
+      - name: deploymentTime
+        hide: true
+      - name: POWER_CLIENT_PASSWORD
+        displayOrder: 2
+        tooltip: An Azure SP password or secret for the client ID.
+        displayName: Client password
+        bladename: Credentials
+        uitype: Microsoft.Common.PasswordTextBox
+      - name: POWER_TENANT_ID
+        displayOrder: 3
+        tooltip: An Azure SP password or secret for the client ID.
+        displayName: Client password
+        bladename: Credentials
+        uitype: Microsoft.Common.PasswordTextBox
