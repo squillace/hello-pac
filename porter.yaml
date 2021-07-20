@@ -93,7 +93,7 @@ uninstall:
         - admin
         - delete
       flags: 
-        environment-id: "{{bundle.parameters.pac-env-id-to-delete}}"
+        environment-id: "{{bundle.parameters.pac_env_id_to_delete}}"
 
         
 # Below is an example of how to define credentials
@@ -122,7 +122,7 @@ parameters:
     type: string
     description: "The name of the power app environment you will create."
     default: kartikisgreat
-  - name: pac-env-id-to-delete
+  - name: pac_env_id_to_delete
     description: "the environment id to delete the environment on uninstall...."
     type: string
     applyTo:
