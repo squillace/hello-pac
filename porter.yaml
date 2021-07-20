@@ -4,7 +4,7 @@
 # Uncomment out the sections below to take full advantage of what Porter can do!
 
 name: powerplatform-cli-hello
-version: 0.1.10
+version: 0.1.13
 description: "This CNAB bundle uses the https://github.com/squillace/porter-pac mixin to create an admin profile and create an environment in PowerApps."
 # TODO: update the registry to your own, e.g. myregistry
 registry: ghcr.io/squillace
@@ -18,6 +18,14 @@ mixins:
   - pac
 
 install:
+  - exec:
+      description: "Setting random string...."
+      command: ./helpers.sh
+      arguments:
+        - random-string
+      outputs:
+        - name: random-string
+          regex: "(^[^\n]*$*)"
   - pac:
       description: "Attaching to the tenant...."
       arguments:
@@ -35,8 +43,8 @@ install:
         - admin
         - create
       flags:
-        name: "{{bundle.parameters.powerapp_env_name}}"
-        domain: "{{bundle.parameters.powerapp_env_name}}"
+        name: "{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random-string}}"
+        domain: "{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random-string}}"
         type: Sandbox # default for now
       outputs:
         - name: env_id_string
@@ -56,7 +64,7 @@ install:
         - create 
       flags:
         name: powerapp-environment-ops
-        url: "https://{{bundle.parameters.powerapp_env_name}}.crm.dynamics.com"
+        url: "https://{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random-string}}.crm.dynamics.com"
         applicationId: "{{bundle.credentials.POWER_CLIENT_ID}}"
         clientSecret: "{{bundle.credentials.POWER_CLIENT_PASSWORD}}" 
         tenant: "{{bundle.credentials.POWER_TENANT_ID}}"
@@ -82,7 +90,7 @@ uninstall:
         - auth
         - create 
       flags:
-        name: hello-powerapps 
+        name: uninstalling-powerapps 
         kind: Admin 
         applicationId: "{{bundle.credentials.POWER_CLIENT_ID}}"
         clientSecret: "{{bundle.credentials.POWER_CLIENT_PASSWORD}}" 
@@ -121,7 +129,7 @@ parameters:
   - name: powerapp_env_name
     type: string
     description: "The name of the power app environment you will create."
-    default: kartikisgreat
+    default: powerenv
   - name: pac_env_id_to_delete
     description: "the environment id to delete the environment on uninstall...."
     type: string
@@ -130,6 +138,17 @@ parameters:
       - uninstall
     source:
       output: env_id
+  - name: random-string
+    type: string
+    applyTo:
+      - upgrade
+      - uninstall
+    source:
+      output: random-string
+  - name: environment_type
+    description: "The type of environment to create. Sandbox is the default."
+    type: string
+    default: Sandbox
 
 outputs:
   - name: env_id
@@ -137,7 +156,10 @@ outputs:
     applyTo:
       - install
       - upgrade
-
+  - name: random-string
+    type: string
+    applyTo:
+      - install
 # The following values are consumed by the Azure Portal and turned into visual blades and UI elements.
 custom:
   com.azure.creatuidef:
