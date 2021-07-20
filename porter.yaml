@@ -157,7 +157,7 @@ custom:
         bladename: Parameters
       - name: POWER_CLIENT_ID
         tooltip: A client id with permission to create resources in a tenant.
-        displayName: Cient ID
+        displayName: Client ID
         displayOrder: 1
         uitype: Microsoft.Common.PasswordTextBox
         bladename: Credentials
@@ -165,13 +165,13 @@ custom:
         hide: true
       - name: POWER_CLIENT_PASSWORD
         displayOrder: 2
-        tooltip: An Azure SP password or secret for the client ID.
-        displayName: Client password
+        tooltip: A Power Platform SP password or secret for the client ID.
+        displayName: Client secret
         bladename: Credentials
         uitype: Microsoft.Common.PasswordTextBox
       - name: POWER_TENANT_ID
         displayOrder: 3
-        tooltip: An Azure SP password or secret for the client ID.
-        displayName: Client password
+        tooltip: A Power Platform tenant id for operational control.
+        displayName: Tenant ID
         bladename: Credentials
         uitype: Microsoft.Common.PasswordTextBox
