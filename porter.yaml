@@ -45,7 +45,7 @@ install:
       flags:
         name: "{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random-string}}"
         domain: "{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random-string}}"
-        type: Sandbox # default for now
+        type: "{{bundle.parameters.environment_type}}"
       outputs:
         - name: env_id_string
           regex: "(([0-9A-Fa-f]{8}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{4}[-][0-9A-Fa-f]{12})+)"
