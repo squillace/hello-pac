@@ -24,7 +24,7 @@ install:
       arguments:
         - random-string
       outputs:
-        - name: random-string
+        - name: random_string
           regex: "(^[^\n]*$*)"
   - pac:
       description: "Attaching to the tenant...."
@@ -43,8 +43,8 @@ install:
         - admin
         - create
       flags:
-        name: "{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random-string}}"
-        domain: "{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random-string}}"
+        name: "{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random_string}}"
+        domain: "{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random_string}}"
         type: "{{bundle.parameters.environment_type}}"
       outputs:
         - name: env_id_string
@@ -64,7 +64,7 @@ install:
         - create 
       flags:
         name: powerapp-environment-ops
-        url: "https://{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random-string}}.crm.dynamics.com"
+        url: "https://{{bundle.parameters.powerapp_env_name}}{{bundle.outputs.random_string}}.crm.dynamics.com"
         applicationId: "{{bundle.credentials.POWER_CLIENT_ID}}"
         clientSecret: "{{bundle.credentials.POWER_CLIENT_PASSWORD}}" 
         tenant: "{{bundle.credentials.POWER_TENANT_ID}}"
@@ -144,7 +144,7 @@ parameters:
       - upgrade
       - uninstall
     source:
-      output: random-string
+      output: random_string
   - name: environment_type
     description: "The type of environment to create. Sandbox is the default."
     type: string
@@ -156,7 +156,7 @@ outputs:
     applyTo:
       - install
       - upgrade
-  - name: random-string
+  - name: random_string
     type: string
     applyTo:
       - install
