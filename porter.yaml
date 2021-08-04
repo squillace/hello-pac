@@ -4,7 +4,7 @@
 # Uncomment out the sections below to take full advantage of what Porter can do!
 
 name: powerplatform-cli-hello
-version: 0.2.0
+version: 0.2.1
 description: "This CNAB bundle uses the https://github.com/squillace/porter-pac mixin to create an admin profile and create an environment in PowerApps."
 # TODO: update the registry to your own, e.g. myregistry
 registry: ghcr.io/squillace
@@ -75,6 +75,7 @@ install:
         - import
       flags:
         path: "./mytestsoln.zip"
+# additional work goes here.
 
 upgrade:
   - exec:
@@ -103,7 +104,9 @@ uninstall:
       flags: 
         environment-id: "{{bundle.parameters.pac_env_id_to_delete}}"
 
-        
+
+  
+          
 # Below is an example of how to define credentials
 # See https://porter.sh/author-bundles/#credentials
 credentials:
@@ -121,11 +124,6 @@ credentials:
 # Below is an example of how to define parameters
 # See https://porter.sh/author-bundles/#parameters
 parameters:
-  - name: use_global_invariant
-    description: "TODO: Sets dotnet to globally invariant for temporary workaround...."
-    type: integer
-    env: DOTNET_SYSTEM_GLOBALIZATION_INVARIANT
-    default: 1
   - name: powerapp_env_name
     type: string
     description: "The name of the power app environment you will create."

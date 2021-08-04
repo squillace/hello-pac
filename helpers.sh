@@ -2,7 +2,7 @@
 #set -euo pipefail
 
 random-string() {
-  # remove the damned space
+  # remove the space
         cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w ${1:-8} | head -n 1 | tr '[:upper:]' '[:lower:]'
 }
 
